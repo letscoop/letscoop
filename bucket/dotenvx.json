@@ -9,7 +9,7 @@
             "hash": "b61dadaeb6fb89b74903f3b906ce034db670064b8caec4d2a906ad8b98d7dadc"
         }
     },
-    "bin": "",
+    "bin": "dotenvx.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
