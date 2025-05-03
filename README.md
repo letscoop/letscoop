@@ -4,13 +4,36 @@
 
 A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 
-## How do I install these manifests?
+## How do I install these manifests(apps)?
 
-After manifests have been committed and pushed, run the following:
+To add this bucket, paste this command in a PowerShell session:
 
 ```pwsh
-scoop bucket add letscoop https://github.com/thecats1105/letscoop
-scoop install letscoop/<manifestname>
+scoop bucket add .LS https://github.com/thecats1105/letscoop
+```
+
+To install any manifest(app), run this command in a PowerShell session:
+
+```pwsh
+scoop install .LS/<manifest_name>
+```
+
+To update any manifest(app), run this command in a PowerShell session:
+
+```pwsh
+scoop update <manifest_name>
+```
+
+or want to update all of installed manifests(apps), run this command in a PowerShell session:
+
+```pwsh
+scoop update --all
+```
+
+To remove the bucket, run this command in a PowerShell session:
+
+```pwsh
+scoop bucket rm .LS
 ```
 
 ## How do I contribute new manifests?
