@@ -7,6 +7,6 @@ updates:
     schedule:
       interval: "daily"
     # labels:
-    #  - "📦 dependencies"
+    #   - "📦 dependencies"
     assignees:
       - "thecats1105"
