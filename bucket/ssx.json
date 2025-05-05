@@ -1,5 +1,5 @@
 {
-    "version": "7.1.1",
+    "version": "7.1.2",
     "description": "Scoop Super Search, instantaneous results, UTF-8 and regex compatible. The fastest search engine for Scoop.",
     "homepage": "https://github.com/thecats1105/ssx",
     "license": "GPL-3.0-only",
@@ -7,8 +7,8 @@
         "Type ss -h before using it for the first time to learn how it works.",
         "Visit https://github.com/thecats1105/ssx for more information."
     ],
-    "url": "https://github.com/thecats1105/ss/releases/download/v7.1.1/ssx-v7.1.1.7z",
-    "hash": "a2c5db109bcb0b68331fa04baa2d45bc05cc2bac357fce263b3adc24373f803d",
+    "url": "https://github.com/thecats1105/ss/releases/download/v7.1.2/ssx-v7.1.2.7z",
+    "hash": "82c0cfd7db0b0aece7eb3d3952d46df7ad711721e42a5fcd5824df57ec85a106",
     "depends": [
         "7zip",
         "aria2"
