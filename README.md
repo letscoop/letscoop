@@ -1,6 +1,6 @@
 # LetScoop (Let's Scoop)
 
-[![Tests](https://github.com/thecats1105/letscoop/actions/workflows/ci.yml/badge.svg)](https://github.com/thecats1105/letsccop/actions/workflows/ci.yml) [![Excavator](https://github.com/thecats1105/letscoop/actions/workflows/excavator.yml/badge.svg)](https://github.com/thecats1105/letscoop/actions/workflows/excavator.yml)
+[![Tests](https://github.com/letscoop/letscoop/actions/workflows/ci.yml/badge.svg)](https://github.com/letscoop/letsccop/actions/workflows/ci.yml) [![Excavator](https://github.com/letscoop/letscoop/actions/workflows/excavator.yml/badge.svg)](https://github.com/letscoop/letscoop/actions/workflows/excavator.yml)
 
 A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 
@@ -9,7 +9,7 @@ A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 To add this bucket, paste this command in a PowerShell session:
 
 ```pwsh
-scoop bucket add .LS https://github.com/thecats1105/letscoop
+scoop bucket add .LS https://github.com/letscoop/letscoop
 ```
 
 To install any manifest(app), run this command in a PowerShell session:
