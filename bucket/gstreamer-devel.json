@@ -31,22 +31,6 @@
     "env_set": {
         "PKG_CONFIG_PATH": "$dir/lib/pkgconfig;$env:PKG_CONFIG_PATH"
     },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://gstreamer.freedesktop.org/data/pkg/windows/$version/msvc/gstreamer-1.0-devel-msvc-x86_64-$version.msi"
-            },
-            "32bit": {
-                "url": "https://gstreamer.freedesktop.org/data/pkg/windows/$version/msvc/gstreamer-1.0-devel-msvc-x86-$version.msi"
-            },
-            "arm64": {
-                "url": "https://gstreamer.freedesktop.org/data/pkg/windows/$version/msvc/gstreamer-1.0-devel-msvc-arm64-$version.msi"
-            }
-        },
-        "hash": {
-            "url": "$url.sha256sum"
-        }
-    },
     "pre_install": [
         "if ($architecture -eq \"64bit\") { Move-Item -Path $dir/PFiles64/gstreamer/1.0/msvc_x86_64/* $dir  } elseif ($architecture -eq \"32bit\") { Move-Item -Path $dir/PFiles/gstreamer/1.0/msvc_x86/* $dir } elseif ($architecture -eq \"arm64\") { Move-Item -Path $dir/PFiles64/gstreamer/1.0/msvc_arm64/* $dir }",
         "if ($architecture -eq \"64bit\") { Remove-Item -Path $dir/PFiles64 -Force -Recurse } elseif ($architecture -eq \"32bit\") { Remove-Item -Path $dir/PFiles -Force -Recurse } elseif ($architecture -eq \"arm64\") { Remove-Item -Path $dir/PFiles64 -Force -Recurse }"
