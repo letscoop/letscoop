@@ -8,13 +8,13 @@
     "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
     "bin": [
         [
-            "yaak-app.exe",
+            "yaak-app-client.exe",
             "yaak"
         ]
     ],
     "shortcuts": [
         [
-            "yaak-app.exe",
+            "yaak-app-client.exe",
             "Yaak"
         ]
     ],
