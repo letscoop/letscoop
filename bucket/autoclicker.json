@@ -1,0 +1,29 @@
+{
+    "version": "1.1.0",
+    "description": "A Modern Easy-To-Use Fully-Fledged Windows Mouse & Keyboard AutoClicker",
+    "homepage": "https://zclicker.com/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/zSynctic/AutoClicker/releases/download/v1.1.0/AutoClicker-1.1.0.exe#/AutoClicker.exe",
+            "hash": "fb5e4dc3404454e8c93ef659fdd4e047d149d8589c2e64ad55a1078ab5ac71a8"
+        }
+    },
+    "bin": "AutoClicker.exe",
+    "shortcuts": [
+        [
+            "AutoClicker.exe",
+            "AutoClicker"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/zSynctic/AutoClicker"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/zSynctic/AutoClicker/releases/download/v$version/AutoClicker-$version.exe#/AutoClicker.exe"
+            }
+        }
+    }
+}
